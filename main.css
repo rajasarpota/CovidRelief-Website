@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+    body{
+        margin: 0;
+        background: rgb(15,15,15);
+        color: white;
+        text-align:center;
+    }
+    h2, h3{
+        font-family: 'Prata';
+        margin-top: 0em;
+        margin-bottom: 1em;
+    }
+    h4 {
+        color: rgb(199,199,199);
+    }
+    p{
+        font-family: 'Lato';
+        color: rgb(160, 160, 160);
+        margin-top: 0;
+    }
+    .outer{
+        padding: 1em;
+    }
+    section{
+        column-count: 1;
+        column-gap: 2em;
+    }
+    img {
+        width: 70%;
+        margin: lem 0 0;
+    }
+    @media only screen and (min-width:950px){
+        body{
+            text-align: left;
+            font-size: 15px;
+        }
+    p{
+        line-height: 1.5em;
+    }
+    section {
+        column-count: 2;
+        column-rule-style:solid;
+        column-rule-color: rgb(43,43,43);
+    }
+    section > * {
+        margin-top: 1;
+    }
+    h2{
+        font-size: 1rem;
+        margin: 2em 0 1 em;
+    }
+    .outer {
+        padding: 4 em;
+    }
+    article {
+        padding: 2em;
+        background: #181818;
+    } 
+    .secondary{
+        margin-top: 2em;
+    }
+    img{
+        width: 90%;
+    }
+}
+
